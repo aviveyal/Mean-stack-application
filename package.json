@@ -1,0 +1,36 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "mean stack project",
+  "main": "app.js",
+  "author": "or tubul and aviv eyal",
+  "license": "ISC",
+  "scripts": {
+    "start": "node app.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0",
+    "consolidate": "^0.15.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "*",
+    "debug": "^3.1.0",
+    "ejs": "^2.5.7",
+    "express": "^4.13.3",
+    "express-handlebars": "^3.0.0",
+    "jsonwebtoken": "*",
+    "mongojs": "^2.5.0",
+    "mongoose": "^5.0.9",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.17.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "serve-favicon": "~2.4.5",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.7.3"
+  }
+}
